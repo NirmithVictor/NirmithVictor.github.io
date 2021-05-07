@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./Project Images/Logo.png" type="image/x-icon">  
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="hero">
+          <div>
+            <nav >
+                <img class="logo" src="./Project Images/logo2_updated.png" alt="Nirmith's logo"/>
+                <ul id="nav-list">
+                    <li><a href="#about-me" class="nav_tag">About me</a></li>
+                    <li><a href="#projects" class="nav_tag">Projects</a></li>
+                    <!--<li><a href="#contact-me" class="nav_tag">Contact</a></li> Still In Progress-->
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+          </div>
+          
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>Nirmith Victor D'Almeida</h1>
+                <p>2<sup>nd</sup> year Computer Science student at Carleton University</p>
+                <div class="button"><a href="#about-me">About me</a></div>
+            </div>
+            <div class="socials">
+                <div><a href="https://www.linkedin.com/in/nirmith-dalmeida-81ab2418a" target="_blank" class="social">
+                    <i class="fab fa-linkedin" fill="#ffffff" alt="Linked In"></i>
+                </a></div>
+                <div class="middle_Pop"><a href="https://github.com/NirmithVictor" target="_blank" class="social">
+                    <i class="fab fa-github-square" fill="#ffffff" alt="Github"></i>
+                </a></div>
+                <div><a href="https://www.instagram.com/_jay_codes_/?r=nametag" target="_blank" class="social">
+                    <i class="fab fa-instagram-square" fill="#ffffff" alt="Instagram"></i> 
+                </a></div>
+            </div>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me" style="background-color: rgba(28, 29, 37,0.6); color:white;">
+          <div class="information">
+              <h2>About Me</h2>
+              <p>Hello. My name is Nirmith Victor D'Almeida. I am a 2<sup>nd</sup> year student at Carleton University and I am a beginner web developer with a passion for coding and developing new technologies.</p>
+              <p>Feel free to connect with me for any inquiries or coding challenges!!!!</p>
+          </div>
+          <div class="headshot-container">
+              <img class="headshot" src="./Project Images/Nirmith_pic.png" alt="Nirmith picture"/>
+          </div>
+      </section>
+      <section class="sub-section-alternative" id="projects" style="background-color: rgba(28, 29, 37,0.6);color: white;">
+          <h2>Projects And Certifications</h2>
+          <div class="project-container" >
+                <div class="project-card">
+                    <img class="project-image" src="./Project Images/MovieLocator.png" alt="Project One Image"/>
+                    <h3>Movie Lookup</h3>
+                    <br>
+                    <p class="subtext">This is my project which searches thru a JSON stored data and displays data that matches the criteria. This is still a work in progress hope you want to join in and contribute!!!</p>
+                    <br>
+                    <hr/>
+                    <br>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/NirmithVictor/MOVIE-SEARCH-UP">View code here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="./Project Images/Store_Locator.png" alt="Project One Image"/>
+                    <h3>Store Locator</h3>
+                    <br>
+                    <p class="subtext" >This is one of my first projects that got me interested into the path of web developement.  Please click on the below github link to view this project.</p>
+                    <br>
+                    <hr/>
+                    <br>
+                    <p class="subtext"><a class="project-link"  target="_blank"href="https://github.com/NirmithVictor/StoreLocator">View code here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="./Project Images/Certificate1.png" alt="Responsive web design Cert"/>
+                    <h3>Responsive Web Design Certification</h3>
+                    <br>
+                    <p class="subtext">This is one of my first Certification.  This portfolio project is the result of this certification that I had recieved.</p>
+                    <br>
+                    <hr/>
+                    <br>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/certification/fcc520bbe1d-8ce5-4007-b31d-3fe885a52e10/responsive-web-design">View Certificate here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="./Project Images/Certificate2.png" alt="Responsive web design Cert"/>
+                    <h3>Fundamentals of UX/UI design</h3>
+                    <br>
+                    <p class="subtext">This although a beginner certification is one of my milestone certification.  This has taught me alot more than I had learnt in the 2 years I have been at university.</p>
+                    <br>
+                    <hr/>
+                    <br>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/8XXXMS7TJUSH">View Certificate here</a></p>
+                </div>
+          </div>
+      </section>
+            
+      <footer>
+        <p>All Rights Reserved</p>
+        <p>&#169; 2021 Nirmith Victor D'Almeida</p>
+      </footer>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
