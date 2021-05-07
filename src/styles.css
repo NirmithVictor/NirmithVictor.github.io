@@ -1,0 +1,296 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url("../Project Images/Background_but_neater_option.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+    
+}
+
+.hero {
+    background-color:rgba(28, 29, 37,0.6);
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    max-height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    transition: 2s;
+}
+nav:hover{
+    background-color: rgb(121, 95, 85);
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 37px;
+}
+
+li {
+    text-decoration: none;
+}
+#nav-list li a{
+    transition: 2s;
+    text-align: center;
+}
+#nav-list li a:hover{
+    color: #ef744b;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.subtext a{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: 2s;
+}
+.subtext a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgb(253, 68, 0);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 90px;
+    margin: 30px;
+    border-radius: 50%;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-card:hover{
+    background-color: white;
+    color: black;
+}
+
+.project-container {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav{
+        background-color: #2b2c38;
+    }
+    
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+i.fab.fa-linkedin{
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+}
+
+i.fab.fa-linkedin:hover {
+    width: 75px;
+    height: 75px;
+}
+
+i.fab.fa-github-square {
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+}
+
+i.fab.fa-github-square:hover {
+    width: 75px;
+    height: 75px;
+}
+
+i.fab.fa-instagram-square {
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+}
+
+i.fab.fa-instagram-square:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.project-image {
+    margin-top: 25px;
+    max-width: 242px;
+    border-radius: 20px;
+    max-height: 116px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: #2b2c38;
+        color: white;
+        font-size: 47px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    nav:hover{
+        background-color: #2b2c38;
+        color: white;
+    }
+
+    .logo {
+        display: none;
+    }
+}
