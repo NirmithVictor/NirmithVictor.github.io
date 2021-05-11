@@ -10,11 +10,11 @@ body {
 * { 
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth; 
 }
 
 section {
     background-color: white;
-    
 }
 
 .hero {
@@ -58,9 +58,7 @@ li {
     transition: 2s;
     text-align: center;
 }
-#nav-list li a:hover{
-    color: #ef744b;
-}
+
 
 h1 {
     font-size: 90px;
@@ -141,10 +139,19 @@ p {
     margin: 20px;
 }
 
+
 .sub-section {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+}
+
+.sub-section1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(177 16 16 /34%);
+    padding: 20px;
+    border-radius: 20px
 }
 
 .sub-section-alternative {
@@ -167,7 +174,16 @@ p {
 
 .project-card {
     width: 300px;
-    height: 500px;
+    height: 576px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-card1{
+    width: 50%;
+    height: auto;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
     border-radius: 10px;
@@ -188,11 +204,19 @@ p {
 @media only screen and (max-width: 1000px) {
     nav{
         background-color: #2b2c38;
+        
     }
-    
+    #nav-list li a:hover{
+        color:orangered;
+    }
     .project-container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .information{
+        height: 475px;
+        overflow-y: auto;
     }
 }
 
@@ -216,6 +240,7 @@ i.fab.fa-github-square {
 i.fab.fa-github-square:hover {
     width: 75px;
     height: 75px;
+    padding-top: 30px;
 }
 
 i.fab.fa-instagram-square {
@@ -227,6 +252,7 @@ i.fab.fa-instagram-square {
 i.fab.fa-instagram-square:hover {
     width: 75px;
     height: 75px;
+    padding-top: 30px;
 }
 
 .project-image {
@@ -234,6 +260,11 @@ i.fab.fa-instagram-square:hover {
     max-width: 242px;
     border-radius: 20px;
     max-height: 116px;
+}
+.project-image1{
+    border-radius: 20px;
+    width: 194px;
+    height: 232px;
 }
 
 hr {
