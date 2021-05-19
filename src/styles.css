@@ -38,10 +38,11 @@ nav {
     justify-content: space-between;
     transition: 2s;
 }
+/*
 nav:hover{
     background-color: rgb(121, 95, 85);
     color: black;
-}
+}*/
 
 ul {
     display: flex;
@@ -78,7 +79,7 @@ p {
 
 .subtext {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 700;
 }
 .subtext a{
     background-color: beige;
@@ -143,6 +144,7 @@ p {
 
 .sub-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 80px;
 }
@@ -162,6 +164,11 @@ p {
     padding: 80px;
 }
 
+.heade{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .headshot {
     width: 300px;
     border-radius: 150px;
@@ -173,15 +180,22 @@ p {
     align-items: center;
 }
 
-.project-card {
+.project-card,.project-card2 {
     width: 300px;
-    height: 576px;
+    /*height: 576px;*/
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 20px;
+    border-radius: 20px 0 20px 0;
     transition: 2s;
 }
 
+.project-card{
+    height: 92%;
+}
+
+.project-card2{
+    color: black;
+}
 .project-card1{
     width: 50%;
     height: auto;
@@ -192,16 +206,26 @@ p {
 }
 
 .project-card:hover{
-    background-color: white;
     color: black;
+    background-color: white;
+
 }
 
-.project-container {
+.project-card2:hover{
+    padding-left: 20px;
+}
+
+.project-container, .project-container1, .project-container2 {
     display: flex;
     overflow-x: auto;
-    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
+/*.project-container1{
+    justify-content: center;
+}
+*/
 @media only screen and (max-width: 1000px) {
     nav{
         background-color: #2b2c38;
@@ -210,13 +234,24 @@ p {
     #nav-list li a:hover{
         color:orangered;
     }
-    .project-container {
+    .project-container, .project-container1, .project-container2 {
         display: flex;
+        /*flex-wrap: wrap;*/
+        overflow-x: auto;
+        
+    }
+
+    .project-container2{
         flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .project-card1{
+        width: auto;
     }
 
     .information{
-        height: 475px;
+        /*height: 475px;*/
         overflow-y: auto;
     }
 }
@@ -259,8 +294,10 @@ i.fab.fa-instagram-square:hover {
 .project-image {
     margin-top: 25px;
     max-width: 242px;
-    border-radius: 20px;
-    max-height: 116px;
+    border-radius: 20px 0 20px 0;
+    max-height: 150px;
+    min-width: 242px;
+    min-height: 150px;
 }
 .project-image1{
     border-radius: 20px;
@@ -326,3 +363,22 @@ a {
         display: none;
     }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(54, 51, 51); 
+    border-radius: 10px;
+    transition: 2s;
+  }

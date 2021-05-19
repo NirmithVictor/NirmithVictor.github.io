@@ -16,7 +16,7 @@
             <nav >
                 <img class="logo" src="./Project Images/logo2_updated.png" alt="Nirmith's logo"/>
                 <ul id="nav-list">
-                    <li><a href="#about-me" class="nav_tag" style="margin-right: 27px;">About me</a></li>
+                   <!-- <li><a href="#about-me" class="nav_tag" style="margin-right: 27px;">About me</a></li>-->
                     <li><a href="#projects" class="nav_tag" style="margin-right: 27px;">Projects</a></li>
                     <li><a href="#certs" class="nav_tag" style="margin-right: 27px;">Certifications</a></li>
                     <li><a href="#testimonials" class="nav_tag" style="margin-right: 27px;">Testimonials</a></li>
@@ -46,90 +46,139 @@
             </div>
           </div>
       </section>
+      
+      
       <section class="sub-section" id="about-me" style="background-color: rgba(28, 29, 37,0.6); color:white;">
-          <div class="information">
-              <h2>About Me</h2>
-              <p>Hello. My name is Nirmith Victor D'Almeida. I am a 2<sup>nd</sup> year student at Carleton University and I am a beginner web developer with a passion for coding and developing new technologies.</p>
-              <p>Feel free to connect with me for any inquiries or coding challenges!!!!</p>
-          </div>
-          <div class="headshot-container">
+        <h2 class="heade">About Me</h2>  
+        <div style="display: flex;">
+            <div class="information">
+        
+                <p>Hello. My name is Nirmith Victor D'Almeida. I am a 2<sup>nd</sup> year student at Carleton University and I am a beginner web developer with a passion for coding and developing new technologies.</p>                
+                <p>Feel free to connect with me for any inquiries or just to hang out!!!!</p>
+            </div>
+            <div class="headshot-container">
               <img class="headshot" src="./Project Images/Nirmith_pic.png" alt="Nirmith picture"/>
-          </div>
+            </div>
+        </div>
       </section>
+
+
       <section class="sub-section-alternative" id="projects" style="background-color: rgba(28, 29, 37,0.6);color: white;">
           <h2>Projects</h2>
-          <div class="project-container" >
+          <div class="project-container">
+            <a target="_blank" href="https://github.com/NirmithVictor/MOVIE-SEARCH-UP">
                 <div class="project-card">
-                    <img class="project-image" src="./Project Images/MovieLocator.png" alt="Project One Image"/>
+                    <div style="padding: 20px;">
+                        <img class="project-image" src="./Project Images/MovieLocator.png" alt="Project One Image"/>
+                    </div>
                     <h3>Movie Lookup</h3>
                     <br>
                     <p class="subtext">This is my project which searches thru a JSON stored data and displays data that matches the criteria. This is still a work in progress hope you want to join in and contribute!!!</p>
                     <br>
-                    <hr/>
-                    <br>
-                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/NirmithVictor/MOVIE-SEARCH-UP">click here</a></p>
                 </div>
+            </a>
+            <a target="_blank"href="https://github.com/NirmithVictor/StoreLocator">
                 <div class="project-card">
-                    <img class="project-image" src="./Project Images/Store_Locator.png" alt="Project One Image"/>
+                    <div style="padding: 20px;">
+                        <img class="project-image" src="./Project Images/Store_Locator.png" alt="Project One Image"/>                    
+                    </div>
                     <h3>Store Locator</h3>
                     <br>
                     <p class="subtext" >This is one of my first projects that got me interested into the path of web developement.  Please click on the below github link to view this project.</p>
+                    
                     <br>
-                    <hr/>
-                    <br>
-                    <p class="subtext"><a class="project-link"  target="_blank"href="https://github.com/NirmithVictor/StoreLocator">Click here</a></p>
                 </div>
+            </a>
+            <a target="_blank" href="https://heuristic-darwin-f9e201.netlify.app/">
                 <div class="project-card">
-                    <img class="project-image" src="./Project Images/Parallax.png" alt="Project One Image"/>
+                    <div style="padding: 20px;">
+                        <img class="project-image" src="./Project Images/Parallax.png" alt="Project One Image"/>
+                    </div>
                     <h3>Parallax Website</h3>
                     <br>
                     <p class="subtext" >In this project I learnt the effects of how parallax works and how to incorporate them into a site to make it look more attractive and eye-catching to the user.  Please refer below link to view the launched website.</p>
+                    
                     <br>
-                    <hr/>
-                    <br>
-                    <p class="subtext"><a class="project-link"  target="_blank" href="https://heuristic-darwin-f9e201.netlify.app/">Click here</a></p>
-                </div>
+                    <!--<p class="subtext"></p>-->
+                </div>            
+            </a>                  
+                
           </div>
       </section>
+
+      
       <section class="sub-section-alternative" id="certs" style="background-color: rgba(28, 29, 37,0.6);color: white;">
         <h2>Certifications</h2>
         <div class="project-container" >
-              <div class="project-card">
-                  <img class="project-image" src="./Project Images/Certificate1.png" alt="Responsive web design Cert"/>
-                  <h3>Responsive Web Design Certification</h3>
-                  <br>
-                  <p class="subtext">This is one of my first Certification.  This portfolio project is the result of this certification that I had recieved.</p>
-                  <br>
-                  <hr/>
-                  <br>
-                  <p class="subtext"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/certification/fcc520bbe1d-8ce5-4007-b31d-3fe885a52e10/responsive-web-design">Click here</a></p>
-              </div>
-              <div class="project-card">
-                  <img class="project-image" src="./Project Images/Certificate2.png" alt="Responsive web design Cert"/>
-                  <h3>Fundamentals of UX/UI design</h3>
-                  <br>
-                  <p class="subtext">This although a beginner certification is one of my milestone certification.  This has taught me alot more than I had learnt in the 2 years I have been at university.</p>
-                  <br>
-                  <hr/>
-                  <br>
-                  <p class="subtext"><a class="project-link" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/8XXXMS7TJUSH">Click here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="./Project Images/Certificate3.png" alt="Responsive web design Cert"/>
-                <h3>JavaScript Algorithms and Data Structures</h3>
-                <br>
-                <p class="subtext">This started of as a very basic intro course but the datastructures and algorithms that followed were although a bit challenging were much easier to complete once I gained the amount of confidence needed to complete this certification.</p>
-                <br>
-                <hr/>
-                <br>
-                <p class="subtext"><a class="project-link" target="_blank" href="https://freecodecamp.org/certification/fcc520bbe1d-8ce5-4007-b31d-3fe885a52e10/javascript-algorithms-and-data-structures">Click here</a></p>
-            </div>
+            <a target="_blank" href="https://www.freecodecamp.org/certification/fcc520bbe1d-8ce5-4007-b31d-3fe885a52e10/responsive-web-design">
+                <div class="project-card2" style="background: url('./Project Images/Certificate\ type\ 2\ bg_edited.jpg'); background-size: cover; ">
+                    <div style="padding: 48px; width: 205px;">
+                        <h3 style="padding: 20px;">Responsive Web Design Certification</h3>
+                      </div>
+                      
+                      <p class="subtext" style="padding-left: 10px;padding-right: 10px;">
+                      Year Recieved : 2021 <br>
+
+                      From : freecodecamp
+
+                      <br>
+
+                      Comments: This was a fun course to try something new 
+                      </p>
+                      <br>
+                      
+                      <br>
+                </div>
+            </a>  
+            <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/8XXXMS7TJUSH">
+                
+                <div class="project-card2" style="background: url('./Project Images/Certificate1\ Backgorund_edited.jpg'); background-size: cover;">
+                    <div style="padding: 48px; width: 205px;">
+                        <h3 style="padding: 20px;">Fundamentals of UX/UI design</h3>
+                    </div>
+                      
+                      <p class="subtext" style="padding-left: 10px;padding-right: 10px;">
+                      Year Recieved : 2021 <br>
+
+                      From : Coursera - Google Certifications
+
+                      <br>
+
+                      Comments: This was a fun course for a new hobby
+                      </p>
+                      <br>
+                      
+                      <br>
+                </div>
+            </a>
+            <a target="_blank" href="https://www.freecodecamp.org/certification/fcc520bbe1d-8ce5-4007-b31d-3fe885a52e10/javascript-algorithms-and-data-structures">
+                
+                <div class="project-card2" style="background: url('./Project Images/Certificate\ type\ 2\ bg_edited.jpg'); background-size: cover;">
+                    <div style="padding: 48px; width: 205px;">
+                        <h3 style="padding: 20px;">Javascript Algorithm and Data Structure</h3>
+                    </div>
+                      
+                      <p class="subtext" style="padding-left: 10px;padding-right: 10px;">
+                      Year Recieved : 2021 <br>
+
+                      From : freecodecamp
+
+                      <br>
+
+                      Comments: This was a challenging course but fun nonetheless
+                      </p>
+                      <br>
+                      
+                      <br>
+                </div>
+            </a>
+              
         </div>
     </section>
 
       <section class="sub-section-alternative" id="testimonials" style="background-color: rgba(28, 29, 37,0.6);color: white;">
         <h2>Testimonials</h2>
-        <div class="project-container" >
+        <div class="project-container2" style="margin: 0 auto;">
               <div class="project-card1">           
                   <br>
                   <p style="font-family: 'Poppins', sans-serif;font-size: small;margin-left: 10px;margin-right: 10px;"><i>"Nirmith is the team leader type of person, he's always coming up with several ideas when it comes to tackling problems, maybe one too many ideas haha, he is always up to thinking outside the box that sometimes he may not see the answer right infront of him, but that's okay! This is a clear sign of a man who's passionate about what he does, a man who is curious about anything and everything, a man who doesn't quit until he succeeds. A hardworker by the definition, Nirmith is a joy to work with, sometimes he might need someone to step on the brakes, but most people need someone to step on the gas, and I'd say having too much speed in your field has very little cons and way too many pros."</i></p>
@@ -137,20 +186,18 @@
                   <hr/>
                   <br>
                   <p style="display: flex;justify-content: space-between;"> 
-                    <div style="display: flex;justify-content: space-between;padding: 21px;">
-                        <div  style="font-family:'Trebuchet MS', sans-serif;font-size: x-large;">Ali Sharif
+                    <div style="display: flex;justify-content: space-between;padding: 0 21px 21px 21px;">
+                        <div  style="font-family:'Trebuchet MS', sans-serif;font-size: x-large;"><p style="font-size: xx-large;">Ali Sharif</p>
                             <div>
                                 <div style="display: flex;font-size: 40px;">
-                                    <div><a href="https://www.linkedin.com/in/ali-sharif-2a835716b/" target="_blank" class="social1">
-                                        <i class="fab fa-linkedin" fill="#ffffff" alt="Linked In"></i>
+                                    <div style="    padding-right: 20px;"><a href="https://www.linkedin.com/in/ali-sharif-2a835716b/" target="_blank" class="social1">
+                                        <i class="fab fa-linkedin-in" style="color: rgb(70, 70, 204);"></i>
                                     </a></div>
                                     <div><a href="https://www.instagram.com/alisharif9967" target="_blank" class="social1">
-                                        <i class="fab fa-instagram-square" fill="#000080" alt="Instagram"></i> 
-                                    </a></div>
+                                        <i class="fab fa-instagram" style="color: rgb(70, 70, 204);"></i>                                    </a></div>
                                 </div>
                             </div>
                         </div>
-                    <img class="project-image1" src="./Project Images/Testimony1.png" alt="Ali Sharif Image"/>
                     </div> 
                   </p> 
               </div>
@@ -162,17 +209,16 @@
                   <hr/>
                   <br>
                   <p style="display: flex;justify-content: space-between;"> 
-                    <div style="display: flex;justify-content: space-between;padding: 21px;">
-                        <div  style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">Soorya Balaji
+                    <div style="display: flex;justify-content: space-between;padding: 0 21px 21px 21px;">
+                        <div  style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;"><p style="font-size: xx-large;">Soorya Balaji</p>
                             <div>
                                 <div style="display: flex;font-size: 40px;">
                                     <div><a href="https://www.instagram.com/_celestial_03/" target="_blank" class="social1">
-                                        <i class="fab fa-instagram-square" fill="#000080" alt="Instagram"></i> 
+                                        <i class="fab fa-instagram" style="color: rgb(70, 70, 204); "></i> 
                                     </a></div>
                                 </div>
                             </div>
                         </div>
-                    <img class="project-image1" src="./Project Images/Testimony2.png" alt="Soorya Balaji Image"/>
                     </div> 
                   </p> 
               </div>
