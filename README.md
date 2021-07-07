@@ -9,7 +9,7 @@
 - separate and not easily understood project based languages
 
 ## What was the new updates?
-- Filter and easy movement for the testimonial section
+- Filter and easy movement for the testimonial and projects section
 - Contact me section with no much added contact me functionality yet just a simple mailto and separate contact me links
 - Updated the menu Bar
 - updated the About me
